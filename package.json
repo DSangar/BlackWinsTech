@@ -1,0 +1,30 @@
+{
+  "name": "assesment",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Sangaralingam D",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.8.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "joi": "^17.13.3",
+    "mongodb": "^6.13.1",
+    "mongoose": "^8.10.2",
+    "node-mocks-http": "^1.16.2",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
